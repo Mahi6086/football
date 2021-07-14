@@ -26,7 +26,7 @@ body {
 }
 
 .tournament-name {
-    margin-left: 290px;
+    margin-left: 115px;
     margin-bottom: 208px;
 }
 
@@ -165,7 +165,7 @@ main {
     display: flex;
     flex-direction: row;
     margin-top: 30px;
-    margin-left: 610px;
+    margin-left: 390px;
 }
 
 .highlights-details {
@@ -174,7 +174,7 @@ main {
     height: 400px;
     width: 600px;
     margin-top: 10px;
-    margin-left: 10px;
+    margin-left: 1px;
     margin-right: 100px;
     margin-bottom: 80px;
 }
@@ -223,9 +223,9 @@ button .watch-now {
 }
 
 .match-image img {
-    width: 467px;
-    height: 327px;
-    margin-top: 80px;
+    width: 480px;
+    height: 362px;
+    margin-top: 70px;
     margin-right: 100px;
     opacity: .8;
 }
@@ -264,7 +264,7 @@ footer {
     width: 483.87px;
     height: 213px;
     margin-top: 70px;
-    margin-left: 947px;
+    margin-left: 710px;
 }
 
 .football-image img {
