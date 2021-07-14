@@ -1,0 +1,405 @@
+/*-----------
+ Google Font 
+ ------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/*----------------------
+  header style starting part 
+  --------------------------*/
+
+.header-section {
+    margin-left: 0px;
+    margin-top: 0px;
+    width: 100%;
+    height: 677px;
+    background: #2D25A0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.tournament-name {
+    margin-left: 290px;
+    margin-bottom: 208px;
+}
+
+.tournament-name h1 {
+    color: #ffffff;
+    font-size: 64px;
+    width: 485px;
+    height: 230px;
+    margin-left: 200px;
+    margin-top: 200px;
+    font-weight: bold;
+}
+
+.watch-live {
+    background: #E02C6D;
+    width: 168px;
+    height: 44px;
+    padding: 10px 24px;
+    margin-top: 18px;
+    margin-left: 200px;
+    color: #ffffff;
+    font-size: 15px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.watch-live:hover {
+    opacity: 1;
+    transform: scale(1.03);
+    -webkit-transform: scale(1.03);
+    -moz-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    -o-transform: scale(1.03);
+}
+
+.watch-live .fas.fa-arrow-right {
+    margin-left: 12px;
+}
+
+.tournament-banner img {
+    width: 556.01px;
+    height: 438px;
+    margin-top: 153px;
+    margin-right: 141px;
+    margin-bottom: 86px;
+    margin-left: 400px;
+    opacity: 0.8;
+}
+
+.tournament-banner img:hover {
+    opacity: 1;
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    cursor: pointer;
+}
+
+
+/*------------------------------
+          header style ending part 
+          ------------------------------*/
+
+
+/*-----------------------
+         Main style starting part 
+         -------------------------*/
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.players-bio {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 27px;
+    width: 1050px;
+    height: 2050px;
+    margin-left: 50px;
+    margin-top: 70px;
+}
+
+.player {
+    width: 330px;
+    height: 474px;
+    left: 180px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    opacity: 0.8;
+}
+
+.player-details {
+    margin-top: 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.player-details img {
+    width: 310px;
+    height: 240px;
+    margin-top: 10px;
+}
+
+.player-details .player-about {
+    font-size: 17px;
+    font-variant: small-caps;
+}
+
+.player:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+/*---------------------
+         Main Style ending part 
+         -----------------------*/
+
+
+/*------------------------
+         Highlights style starting part 
+         -------------------------------*/
+
+.highlight {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-left: 610px;
+}
+
+.highlights-details {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 600px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 100px;
+    margin-bottom: 80px;
+}
+
+.highlight .highlights-tittle {
+    font-weight: bold;
+    font-size: 71px;
+    font-variant: small-caps;
+    margin-bottom: 0px;
+}
+
+.highlight .highlights-info {
+    font-size: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: gray;
+}
+
+.highlight .watch-now {
+    background: #E02C6D;
+    width: 168px;
+    height: 44px;
+    padding: 10px 24px;
+    margin-top: 18px;
+    color: #ffffff;
+    font-size: 15px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+button .watch-now {
+    margin-top: 0px;
+}
+
+.watch-now .fas.fa-arrow-right {
+    margin-left: 12px;
+}
+
+.watch-now:hover {
+    opacity: 1;
+    transform: scale(1.03);
+    -webkit-transform: scale(1.03);
+    -moz-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    -o-transform: scale(1.03);
+}
+
+.match-image img {
+    width: 467px;
+    height: 327px;
+    margin-top: 80px;
+    margin-right: 100px;
+    opacity: .8;
+}
+
+.match-image img:hover {
+    opacity: 1;
+    cursor: pointer;
+    transform: skew(-20deg);
+    -webkit-transform: skew(-20deg);
+    -moz-transform: skew(-20deg);
+    -ms-transform: skew(-20deg);
+    -o-transform: skew(-20deg);
+}
+
+
+/*-----------------------
+         Highlight Style Ending Part
+         ----------------------------*/
+
+
+/*---------------------------
+         Footer Style Starting Part
+         ----------------------------*/
+
+footer {
+    width: 100%;
+    height: 220px;
+    background: #F3F1FF;
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 483.87px;
+    height: 213px;
+    margin-top: 70px;
+    margin-left: 947px;
+}
+
+.football-image img {
+    width: 60%;
+    margin-left: 80px;
+}
+
+.icon .fab {
+    margin-right: 10px;
+    font-size: 25px;
+    height: 30px;
+    width: 35px;
+    text-align: center;
+    background-color: #c6c9cc;
+    padding-top: 5px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.icon .fab:hover {
+    background-color: floralwhite;
+}
+
+
+/*---------------------------
+         Footer Style ending Part
+         -----------------------------*/
+
+
+/*-------------------------------
+         Bonus section Style Starting
+         --------------------------------*/
+
+.Bonus-section {
+    width: 100%;
+    height: 677px;
+    background-color: rgb(66, 65, 65);
+}
+
+.history {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.club-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.club-logo img {
+    margin-top: 20px;
+    width: 7%;
+    margin-bottom: 0px;
+    color: gray;
+}
+
+.club-logo .tittle {
+    color: gray;
+    font-size: 1.6rem;
+    margin-top: 0px;
+}
+
+.winning-info {
+    margin-right: 30px;
+    margin-top: 30px;
+    width: 250px;
+    height: 400px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    opacity: .7;
+}
+
+.winning-info:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.winning-info img {
+    width: 250px;
+    height: 350px;
+}
+
+.winning-info .winning-tittle {
+    color: gray;
+    font-variant: small-caps;
+    text-align: center;
+    margin-top: 4px;
+}
+
+
+/*---------------------
+          Trophy Section Style
+          ---------------------- */
+
+.trophy-section {
+    width: 100%;
+    height: 500px;
+}
+
+.trophys {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.trophy-winning-info {
+    margin-top: 30px;
+    width: 250px;
+    height: 300px;
+    text-align: center;
+}
+
+.trophy-winning-info img {
+    width: 150px;
+}
+
+
+/*-------------------------------
+         Bonus section Style Starting
+  --------------------------------*/
+
+
+/*-------------------
+   Media Queries 
+   --------------------*/
+
+
+/*----------------
+    Mobile device 
+    ----------------*/
